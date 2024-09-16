@@ -1,0 +1,96 @@
+body { 
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1vw;
+    background-color: lightyellow;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 4vw;
+    /* padding-right: 5%; */
+    font-family: 'Times New Roman';
+    box-shadow: 5px 0px 5px -5px rgb(207, 120, 5);
+}
+
+ul {
+    margin: 0px;
+    padding: 1%;
+}
+
+body > header {
+    font-size: 2vw;
+    height: 10vh;
+    /* width: 100vw; */
+    background-color: orange;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+body > header > input {
+    font-size: 3vw;
+}
+
+body > main > section {
+    display:flex;
+    justify-content: space evenly;
+}
+
+#filter {
+    
+    align-content: start;
+    width: 20vw;
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+#products {
+    list-style: None;
+    text-decoration: None;
+    display: flex;
+    justify-content: space-evenly;
+    width: 25vw;
+}
+
+/* body > main > nav > ul > li > a {
+    padding-right: 30%;
+}  */
+
+#products > div  {
+    padding: 25%;
+    padding-top: 10%;
+    color: rgb(17, 0, 0);
+    text-decoration: none;
+    /* border: 2px dashed darkorange;
+    border-radius: 5%; */
+    font-size: 2vw;
+}
+
+p {
+    width: 20vw;
+}
+
+#form {
+    width: 100vw;
+    display: flex;
+    font-size: 2vw;
+    justify-content: space-evenly;
+    background-color: orange;
+}
+
+#subscribe {
+    width: 5vw;
+}
+
+/* #form > div input {
+    width: 30vw;
+} */
+
+
+h2 {
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1%;
+}
